@@ -1,54 +1,71 @@
-[pesan.html](https://github.com/user-attachments/files/22407396/pesan.html)
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemesanan</title>
-    <link rel="stylesheet" href="pesan.css">
+    <title>machalove</title>
+    <link rel="stylesheet" href="stayle.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#" class="logo">machalove</a>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="https://www.instagram.com/lkmnn0_/">Kontak</a></li>
+                <li><a href="#">Keranjang (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- header -->
+    <main>
+        <section class="hero">
+            <h1>MACHA</h1>
+            <p>temukan makanan dan minuman olahan macha favorit kamu</p>
+            <a href="" class="btn">Pesan Sekarang</a>
+        </section>
 
-  <form action="#" method="post">
+        <section class="products">
+            <h2>BEST SALLER</h2>
 
-<fieldset>
-  <!-- data kostemer-->
-<legend clas>PEMESANAN</legend>
-<label for="nama">nama</label>
-<input type="nama" name="nama" id="nama"><br><br>
+<!-- jenis olahannya -->
 
-<label for="telepon">Nomor telepon</label>
-<input type="telepon" name="telepon" id="telepon"><br><br>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="ice_cream.jpeg" alt="Produk 1">
+                    <h3>Ice cream</h3>
+                    <p>Rp 15.000</p>
+                    <a href="pesan.html" class="btn">Beli</a>
+                </div>
 
-<label for="alamat">alamat</label>
-<input type="alamat" name="alamat" id="alamat"><br><br>
+                <div class="product-card">
+                    <img src="kopi.jpeg" alt="Produk 2" class="kopi">
+                    <h3>kopi</h3>
+                    <p>Rp 20.000</p>
+                    <a href="pesan.html" class="btn">Beli</a>
+                </div>
 
-<label for="nama">jumlah pemesanan</label>
-<input type="nama" name="nama" id="nama"><br><br>
+                <div class="product-card">
+                    <img src="martabak.jpeg" alt="Produk 3">
+                    <h3>Martabak</h3>
+                    <p>Rp 18.000</p>
+                    <a href="pesan.html" class="btn">Beli</a>
+                </div>
 
-<!-- alat makan -->
-alat makan: <br>
-<input class="itula" type="checkbox" id="sendok" name="alat">
-<label for="sendok">sendok</label><br>
+                <div class="product-card">
+                    <img src="kue.jpeg" alt="Produk 3">
+                    <h3>kue</h3>
+                    <p>Rp 18.000</p>
+                    <a href="pesan.html" class="btn">Beli</a>
+                </div>
 
-<input type="checkbox" id="garpu" name="alat">
-<label for="garpu">garpu</label><br>
+            </div>
+        </section>
+    </main>
 
-<input type="checkbox" id="sedotan" name="alat">
-<label for="sedotan">sedotan</label> <br><br>
-
-<!-- pengiriman -->
-<tr>
-  <td>
-    <select name="pengiriman" id="pengiriman">
-      <option value="#">pengiriman</option>
-      <option value="ilkom">pick up</option>
-      <option value="ti">gosend</option>
-    </select>
-  </td>
-</tr><br>
-</fieldset>
-<input type="submit" value="pesan sekarang">
-  </form>
+    <footer>
+        <p>&copy; 2025 MACHALOVE. Muhammad Lukman Toro.</p>
+    </footer>
 </body>
 </html>
